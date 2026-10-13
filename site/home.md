@@ -85,6 +85,10 @@ Ludo Atlas 是一个中文优先的开源游戏开发知识库：把「做游戏
 
 </div>
 
+## 给 AI 助手用
+
+本库提供官方 Agent Skill：[skills/ludo-atlas](https://github.com/HuanMoovo/ludo-atlas/tree/main/skills/ludo-atlas) 把全库做成助手可调用的路由层，装进 Claude Code、Codex、Hermes 等带技能机制的助手后，游戏开发任务会自动取到对应手册页。安装见 [skills/](https://github.com/HuanMoovo/ludo-atlas/tree/main/skills)。
+
 ## 项目
 
 - 仓库：[github.com/HuanMoovo/ludo-atlas](https://github.com/HuanMoovo/ludo-atlas)

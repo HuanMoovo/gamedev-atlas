@@ -85,6 +85,10 @@ The story and organizing principles behind the project are in the [Preface](docs
 
 </div>
 
+## For AI agents
+
+The repository ships an official Agent Skill: [skills/ludo-atlas](https://github.com/HuanMoovo/ludo-atlas/tree/main/skills/ludo-atlas) turns the whole library into a routing layer — install it in Claude Code, Codex, Hermes or any skill-capable agent and game-dev tasks automatically fetch the right handbook pages. Install notes in [skills/](https://github.com/HuanMoovo/ludo-atlas/tree/main/skills).
+
 ## Project
 
 - Repository: [github.com/HuanMoovo/ludo-atlas](https://github.com/HuanMoovo/ludo-atlas)

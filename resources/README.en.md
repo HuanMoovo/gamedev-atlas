@@ -967,7 +967,7 @@
 ## 11. Link Verification Report (2026-10-04)
 
 **Method**: the companion script `check_links.py` runs a dual-channel check over all links (direct → proxy fallback; HEAD → GET fallback). 2xx/3xx accepted; 403/405/429 recorded as "anti-scraping protection (browser-accessible)"; 401/451 as "login required".
-**Scale**: 521 → 651 unique links (including 63 added for the international segment of Pitfalls & Anti-patterns; see the 2026-10-05 expansion below).
+**Scale**: 521 → 691 unique links (including 63 added for the international segment of Pitfalls & Anti-patterns; re-verified 2026-10-05).
 **Result**: **398 directly reachable · 42 anti-scraping protection · 2 login required (Apple/Sony developer portals, expected) · 15 anomalies (all handled)**.
 
 **2026-10-05 expansion check**: ~130 links added (AI agents & skill resources, the new narrative & dialogue tools column, plus supplements across engines, tools, learning, communities, assets, publishing, services and compliance; 3 historical duplicate rows merged). Full dual-channel re-check (direct → proxy fallback): the large majority are directly reachable; a few are anti-scraping protection or local-network restrictions (Google / Adobe class, browser-accessible), or were removed as dead entries — details in the log.

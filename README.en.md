@@ -2,7 +2,7 @@
 <p><a href="README.md">简体中文</a> · <b>English</b></p>
 <img src="assets/logo.svg" alt="Ludo Atlas logo" width="150">
 <h1>Ludo Atlas · Game Development Panorama Handbook</h1>
-<p><strong>A Chinese-first, structured, open-source knowledge base for game development.</strong> From learning, pitfalls, legal and launch, to design, engineering, art, production, live-ops and AI workflows: "making games" broken into <strong>139 documents (~982k characters)</strong>, every external link verified one by one, built to be contributed to.</p>
+<p><strong>A Chinese-first, structured, open-source knowledge base for game development.</strong> From learning, pitfalls, legal and launch, to design, engineering, art, production, live-ops and AI workflows: "making games" broken into <strong>141 documents (~958k characters)</strong>, every external link verified one by one, built to be contributed to.</p>
 <p><strong>📖 Read online: <a href="https://huanmoovo.github.io/ludo-atlas/">https://huanmoovo.github.io/ludo-atlas/</a> (switchable between 简体中文 / English · GitHub Pages, deployed by CI)</strong></p>
 <p><a href="https://github.com/HuanMoovo/ludo-atlas/actions/workflows/lint.yml"><img src="https://github.com/HuanMoovo/ludo-atlas/actions/workflows/lint.yml/badge.svg" alt="Lint"></a> <a href="https://github.com/HuanMoovo/ludo-atlas/actions/workflows/links.yml"><img src="https://github.com/HuanMoovo/ludo-atlas/actions/workflows/links.yml/badge.svg" alt="Link Check"></a> <a href="LICENSE"><img src="https://img.shields.io/badge/License-CC%20BY--SA%204.0%20%2B%20MIT-blue.svg" alt="License: CC BY-SA 4.0 + MIT"></a> <a href="https://github.com/HuanMoovo/ludo-atlas/stargazers"><img src="https://img.shields.io/github/stars/HuanMoovo/ludo-atlas?style=flat&label=Stars&color=48D64F" alt="Stars"></a></p>
 </div>
@@ -30,7 +30,7 @@ An open-source handbook set covering the full game development lifecycle:
 
 - **It explains both the "how" and the "why"**, with no platitudes; figures, policies and fees always come with verifiable sources and the date they were checked.
 - **Every external link is verified one by one** (each verified before release, plus automated weekly re-checks in CI), with a full process for handling dead links.
-- **Structured by design**: 139 documents, each with a single job, cross-referencing instead of repeating. See [About This Repo](docs/meta/design.md) for the layout and long-term plan.
+- **Structured by design**: 141 documents, each with a single job, cross-referencing instead of repeating. See [About This Repo](docs/meta/design.md) for the layout and long-term plan.
 
 The library is Chinese-first; the full English edition is now available.
 
@@ -82,7 +82,7 @@ The library is Chinese-first; the full English edition is now available.
 ### Practice & resources
 
 - [Indie Survival](playbooks/indie-survival/README.md)
-- [Game Development Resources](resources/README.md) (521 links)
+- [Game Development Resources](resources/README.md) (691 links)
 - [Open Source Picks & Book Recommendations](resources/books-and-repos.md) (103 GitHub projects + 60+ books)
 
 ## Three recommended reading paths
@@ -98,6 +98,7 @@ docs/           Handbook content (grouped by topic)
 resources/      Link directory and book list
 playbooks/      End-to-end playbooks (launch, survival)
 templates/      Reusable templates (one-pagers, postmortems)
+skills/         The official Agent Skill for AI agents
 scripts/        Tooling scripts (link checking)
 ```
 

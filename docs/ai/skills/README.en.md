@@ -98,6 +98,12 @@ The minimum skill list: read a diff, run the tests, spot anomalies in the data, 
 
 One reminder: a Skill is leverage; judgment is the capital. Without enough capital, leverage only magnifies the losses.
 
+## 8. The Official Skill: Put the Handbook into Your Agent
+
+The repository also ships an official Agent Skill: [skills/ludo-atlas](https://github.com/HuanMoovo/ludo-atlas/tree/main/skills/ludo-atlas). It turns the library into a routing layer: install it in a skill-capable agent (Claude Code, Codex, Hermes…) and game-dev tasks automatically pull the right handbook pages; the index is regenerated from the repository by script. Install and structure: [skills/README.md](https://github.com/HuanMoovo/ludo-atlas/tree/main/skills).
+
+In one line: if nothing in the ecosystem fits, start with this one; when you build your own, follow the seven-question structure in section 5 above.
+
 ---
 
 > Companion reading: the main volume, the AI Workflows Handbook (prompt library and red lines); the topic page AI Agents (permissions, orchestration and cost); Resources §2.9 (tool and skill ecosystem entry points).

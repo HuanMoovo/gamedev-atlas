@@ -60,6 +60,7 @@ gamedev-atlas/
 ├── examples/        # the example plan
 ├── resources/       # the resource directory
 ├── site/            # reading-site build (Material for MkDocs)
+├── skills/          # the official Agent Skill for AI agents
 ├── scripts/         # maintenance scripts
 └── .github/         # CI: lint / link check / site deploy
 ```
@@ -68,8 +69,8 @@ Current scale: 140+ Chinese documents · ~960k characters · 81 genre handbooks 
 
 ## 05 Versions & Status
 
-- Current version v2.6.2: full English coverage; the reading site is bilingual (Simplified Chinese / English).
-- Milestones: v0.1 first 26 handbooks → v2.0 all tracks complete → v2.4 migration to Material for MkDocs → v2.6 full English coverage → v2.6.2 deduplication and trimming.
+- Current version v2.7.0: full English coverage, a bilingual (Simplified Chinese / English) reading site, and an official Agent Skill.
+- Milestones: v0.1 first 26 handbooks → v2.0 all tracks complete → v2.4 migration to Material for MkDocs → v2.6 full English coverage → v2.6.2 deduplication and trimming → v2.7 Agent Skill.
 - Full log in [CHANGELOG.md](../../CHANGELOG.md); next directions in the [Content Roadmap](roadmap.md).
 
 ## 06 Licensing

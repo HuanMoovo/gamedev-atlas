@@ -2,7 +2,7 @@
 
 本项目采用**双许可**：
 
-- **文档内容**（`docs/`、`resources/`、`playbooks/`、`templates/`、`catalog/` 及根目录文档）：采用
+- **文档内容**（`docs/`、`resources/`、`playbooks/`、`templates/`、`skills/` 及根目录文档）：采用
   [CC BY-SA 4.0（署名—相同方式共享 4.0 国际）](https://creativecommons.org/licenses/by-sa/4.0/deed.zh-hans) 许可。
   您可以自由复制、分发、改编，需保留署名并以相同许可分发。
   完整法律文本：<https://creativecommons.org/licenses/by-sa/4.0/legalcode.zh-hans>

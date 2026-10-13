@@ -127,4 +127,4 @@ Exposure (platform recommendations / media / social / search)
 
 ---
 
-> **Full handbook index**: Resources (521 links) · Pitfalls & Anti-patterns · Legal, Patents & Competition · Multi-platform Launch Playbook · Game Design Handbook · Programming Handbook · Art & Audio Handbook · Production Handbook · Live-Ops & Growth — all collected in this repository.
+> **Full handbook index**: Resources (691 links) · Pitfalls & Anti-patterns · Legal, Patents & Competition · Multi-platform Launch Playbook · Game Design Handbook · Programming Handbook · Art & Audio Handbook · Production Handbook · Live-Ops & Growth — all collected in this repository.

@@ -98,6 +98,12 @@
 
 一句提醒：Skill 是杠杆，判断是本金。本金不够，杠杆只会把损失放大。
 
+## 8. 本库官方 Skill：把手册装进你的助手
+
+本仓库自身也提供官方 Agent Skill：[skills/ludo-atlas](https://github.com/HuanMoovo/ludo-atlas/tree/main/skills/ludo-atlas)。它把全库做成一层路由：装进 Claude Code、Codex、Hermes 等带技能机制的助手后，游戏开发任务会自动查对应手册页；索引由脚本从仓库重新生成。安装与结构见 [skills/README.md](https://github.com/HuanMoovo/ludo-atlas/tree/main/skills)。
+
+一句话：生态里找不到合用的，先拿这一个起步；要自建时，就按上面第 5 节的七问结构写。
+
 ---
 
 > 配套阅读：主册《AI 工作流手册》（提示词库与红线）；专题《AI 智能体》（权限、编排与成本）；《资源大全》§2.9（工具与技能生态入口）。

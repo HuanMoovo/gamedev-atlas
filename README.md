@@ -2,7 +2,7 @@
 <p><b>简体中文</b> · <a href="README.en.md">English</a></p>
 <img src="assets/logo.svg" alt="Ludo Atlas logo" width="150">
 <h1>Ludo Atlas · 游戏开发全景手册</h1>
-<p><strong>一个中文优先、结构化的开源游戏开发知识库。</strong> 从学习、避坑、法务、上架，到设计、技术、美术、制作、运营与 AI 工作流：把"做游戏"拆成 <strong>139 份文档（约 98.2 万字）</strong>，全部外链逐条核查，可持续贡献。</p>
+<p><strong>一个中文优先、结构化的开源游戏开发知识库。</strong> 从学习、避坑、法务、上架，到设计、技术、美术、制作、运营与 AI 工作流：把"做游戏"拆成 <strong>141 份文档（约 95.8 万字）</strong>，全部外链逐条核查，可持续贡献。</p>
 <p><strong>📖 在线阅读：<a href="https://huanmoovo.github.io/ludo-atlas/">https://huanmoovo.github.io/ludo-atlas/</a> （支持 简体中文 / English 切换 · GitHub Pages，由 CI 自动部署）</strong></p>
 <p><a href="https://github.com/HuanMoovo/ludo-atlas/actions/workflows/lint.yml"><img src="https://github.com/HuanMoovo/ludo-atlas/actions/workflows/lint.yml/badge.svg" alt="Lint"></a> <a href="https://github.com/HuanMoovo/ludo-atlas/actions/workflows/links.yml"><img src="https://github.com/HuanMoovo/ludo-atlas/actions/workflows/links.yml/badge.svg" alt="Link Check"></a> <a href="LICENSE"><img src="https://img.shields.io/badge/License-CC%20BY--SA%204.0%20%2B%20MIT-blue.svg" alt="License: CC BY-SA 4.0 + MIT"></a> <a href="https://github.com/HuanMoovo/ludo-atlas/stargazers"><img src="https://img.shields.io/github/stars/HuanMoovo/ludo-atlas?style=flat&label=Stars&color=48D64F" alt="Stars"></a></p>
 </div>
@@ -30,7 +30,7 @@
 
 - **讲清楚"怎么做"和"为什么"**，不给空话；数据、政策与费率都给出可核实的来源，并标注核实时点。
 - **全部外链逐条核查**（发布前逐条验证 + CI 每周自动复查），死链有一整套处理机制。
-- **结构设计科学**：139 份文档各司其职、互相引用不重复；目录与长期规划见 [关于本库](docs/meta/design.md)。
+- **结构设计科学**：141 份文档各司其职、互相引用不重复；目录与长期规划见 [关于本库](docs/meta/design.md)。
 
 ## 内容地图
 
@@ -80,7 +80,7 @@
 ### 实战与资源
 
 - [独立开发生存手册](playbooks/indie-survival/README.md)
-- [游戏开发综合资源大全](resources/README.md)（521 条链接）
+- [游戏开发综合资源大全](resources/README.md)（691 条链接）
 - [开源精选与书籍推荐](resources/books-and-repos.md)（103 个 GitHub 项目 + 60 余本书）
 
 ## 三条推荐阅读路线
@@ -96,6 +96,7 @@ docs/           手册正文（按主题分区）
 resources/      链接目录与书单
 playbooks/      端到端实战手册（上架、生存）
 templates/      可复用模板（立项书、复盘）
+skills/         官方 Agent Skill（供 AI 助手调用）
 scripts/        工具脚本（链接核查）
 ```
 

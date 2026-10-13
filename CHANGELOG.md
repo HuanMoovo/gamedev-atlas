@@ -2,6 +2,11 @@
 
 > 各版本按内容增量推进；仓库结构与规范见 [关于本库](docs/meta/design.md)。
 
+## 2.7.0 · Agent Skill
+
+- 新增 `skills/ludo-atlas/`：把全库做成标准 Agent Skill（SKILL.md 路由层 + 全量页面索引 + 重生成脚本），Claude Code / Codex / Hermes 等可直接安装调用。
+- 入口同步：README 仓库结构与首屏数字、《游戏开发需要的 Skill》专页第 8 节、站点首页「给 AI 助手用」；资源计数更新为 691 条。
+
 ## 2.6.2 · 去重与精简
 
 - 移除与《资源大全》重复的 catalog/ 数据目录；路线图合并为单处（docs/meta/roadmap.md）。

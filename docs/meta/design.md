@@ -60,6 +60,7 @@ gamedev-atlas/
 ├── examples/        # 示例计划
 ├── resources/       # 资源大全
 ├── site/            # 阅读站构建（Material for MkDocs）
+├── skills/          # 官方 Agent Skill（供 AI 助手调用）
 ├── scripts/         # 维护脚本
 └── .github/         # CI：lint / 链接检查 / 站点部署
 ```
@@ -68,8 +69,8 @@ gamedev-atlas/
 
 ## 05 版本与状态
 
-- 当前版本 v2.6.2：全库英译完成，阅读站为简体中文 / English 双语。
-- 里程碑：v0.1 首发 26 份手册 → v2.0 全轨道收官 → v2.4 迁移 Material for MkDocs → v2.6 英译全覆盖 → v2.6.2 去重精简。
+- 当前版本 v2.7.0：全库英译完成、简体中文 / English 双语阅读站，并提供官方 Agent Skill。
+- 里程碑：v0.1 首发 26 份手册 → v2.0 全轨道收官 → v2.4 迁移 Material for MkDocs → v2.6 英译全覆盖 → v2.6.2 去重精简 → v2.7 Agent Skill。
 - 完整记录见 [CHANGELOG.md](../../CHANGELOG.md)；下一步规划见[内容路线图](roadmap.md)。
 
 ## 06 许可

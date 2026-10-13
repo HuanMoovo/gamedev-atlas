@@ -66,12 +66,12 @@ gamedev-atlas/
 └── .github/         # CI: lint / link check / site deploy
 ```
 
-Current scale: 140+ Chinese documents · ~960k characters · 81 genre handbooks · 12 engine tracks · 650+ resource links.
+Current scale: 146 Chinese documents · ~970k characters · 81 genre handbooks · 12 engine tracks · 650+ resource links.
 
 ## 05 Versions & Status
 
-- Current version v2.8.0: full English coverage, a bilingual reading site, an official Agent Skill, and the new Reverse Engineering (Unorthodox) section.
-- Milestones: v0.1 first 26 handbooks → v2.0 all tracks complete → v2.4 migration to Material for MkDocs → v2.6 full English coverage → v2.6.2 deduplication and trimming → v2.7 Agent Skill.
+- Current version v2.8.1: full English coverage, a bilingual reading site, an official Agent Skill, the Reverse Engineering (Unorthodox) section, and the Afterword.
+- Milestones: v0.1 first 26 handbooks → v2.0 all tracks complete → v2.4 migration to Material for MkDocs → v2.6 full English coverage → v2.6.2 deduplication and trimming → v2.7 Agent Skill → v2.8 Reverse Engineering (Unorthodox) → v2.8.1 Afterword.
 - Full log in [CHANGELOG.md](../../CHANGELOG.md); next directions in the [Content Roadmap](roadmap.md).
 
 ## 06 Licensing

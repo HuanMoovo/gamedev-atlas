@@ -12,6 +12,7 @@
 | 页面 | 站点路径 |
 | --- | --- |
 | 文档索引 | `/docs/` |
+| 写给还在做游戏的人 | `/docs/afterword/` |
 | 为什么会有 Ludo Atlas | `/docs/preface/` |
 
 ## 入门 Getting Started

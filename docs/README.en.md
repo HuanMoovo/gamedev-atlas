@@ -4,6 +4,8 @@ All handbooks are grouped by topic; for the repository layout and long-term plan
 
 Start here: [Preface](preface.md) (why this project exists).
 
+Closing: [Afterword](afterword.md) (for everyone still making games).
+
 ## Getting Started (start/)
 
 - [Game Development at a Glance](start/what-is-gamedev.md) · [Roles & Skills Map](start/role-map.md) · [Engine Selection Guide](start/engine-choice.md) · [Your First Game](start/first-game.md) · [Learning Paths](start/learning-path.md)

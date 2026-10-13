@@ -131,6 +131,8 @@ def build_nav(base):
         nav.append(_section(base, 'playbooks', '实践手册'))
     if _have('doc-templates/index.md') and _have('examples/index.md'):
         nav.append({'模板与示例': [_node(base, 'doc-templates'), _node(base, 'examples')]})
+    if _have('docs/afterword.md'):
+        nav.append({'后记': 'docs/afterword.md'})
     about = []
     if _have('docs/meta/index.md'):
         about += list(_node(base, 'docs/meta').values())[0]

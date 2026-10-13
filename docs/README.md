@@ -4,6 +4,8 @@
 
 开篇：[前言](preface.md)（为什么会有这个项目）。
 
+收尾：[后记](afterword.md)（写给还在做游戏的人）。
+
 ## 入门（start/）
 
 - [游戏开发全貌](start/what-is-gamedev.md) · [岗位与技能地图](start/role-map.md) · [引擎选型指南](start/engine-choice.md) · [第一个游戏](start/first-game.md) · [学习路径](start/learning-path.md)

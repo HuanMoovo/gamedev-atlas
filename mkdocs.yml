@@ -68,6 +68,7 @@ plugins:
           nav_translations:
             "首页": "Home"
             "前言": "Preface"
+            "后记": "Afterword"
             "总目录": "Contents"
             "入门": "Getting Started"
             "入门路径": "Start Here"

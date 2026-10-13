@@ -64,8 +64,9 @@ def title_of(path):
     if t.startswith('Ludo Atlas'):
         t = re.sub(r'^Ludo Atlas\s*·\s*', '', t)
     t = re.sub(r'（[^（）]*·[^（）]*）', '', t).strip()  # 剔除含 · 的枚举括号
-    if ' · ' in t:
-        t = t.rsplit(' · ', 1)[-1].strip()             # 去掉「类型手册 ·」类中段标签
+    _rel = os.path.relpath(path, REPO).replace('\\', '/')
+    if ' · ' in t and not re.fullmatch(r'docs/[^/]+\\.md', _rel):
+        t = t.rsplit(' · ', 1)[-1].strip()             # 去掉「类型手册 ·」类中段标签（docs 根级《前言》《后记》保留全题）
     return t or os.path.basename(path)[:-3]
 
 

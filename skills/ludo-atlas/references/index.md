@@ -230,6 +230,16 @@
 | Game Dev Resource Directory | `/resources/` |
 | 开源精选与书籍推荐 | `/resources/books-and-repos/` |
 
+## 邪修·逆向工程 Reverse Engineering (Unorthodox)
+
+| 页面 | 站点路径 |
+| --- | --- |
+| 邪修·逆向工程 | `/docs/reverse-engineering/` |
+| 防守 | `/docs/reverse-engineering/defense/` |
+| 实操路线 | `/docs/reverse-engineering/practice/` |
+| 开源项目 | `/docs/reverse-engineering/projects/` |
+| 工具链 | `/docs/reverse-engineering/tools/` |
+
 ## 关于与元信息 About & Meta
 
 | 页面 | 站点路径 |

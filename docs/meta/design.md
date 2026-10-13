@@ -35,6 +35,7 @@
 | 团队与规模 | 单人、小团队、工作室的协作方式 | [团队与规模](../teams/README.md) |
 | 发行与商业化 | 上架、法务、运营、小游戏、主机、VR/AR、电竞 | [发行与商业化](../publishing/README.md) |
 | 避坑与复盘 | 反模式大全与项目复盘集 | [避坑](../pitfalls/README.md) · [复盘](../postmortems/README.md) |
+| 邪修·逆向工程 | 拆解、Mod、移植与复刻（含工具链与免责声明） | [邪修·逆向工程](../reverse-engineering/README.md) |
 | 实践手册 | 从创意到 Demo、垂直切片、上线等端到端流程 | [实践手册](../../playbooks/README.md) |
 | 模板 | 一页纸、GDD、技术设计、里程碑等即用模板 | [模板](../../templates/README.md) |
 | 示例 | 覆盖六条引擎路线的示例计划 | [示例](../../examples/README.md) |
@@ -69,7 +70,7 @@ gamedev-atlas/
 
 ## 05 版本与状态
 
-- 当前版本 v2.7.0：全库英译完成、简体中文 / English 双语阅读站，并提供官方 Agent Skill。
+- 当前版本 v2.8.0：全库英译完成、双语阅读站、官方 Agent Skill，并新增含完整免责声明的「邪修·逆向工程」板块。
 - 里程碑：v0.1 首发 26 份手册 → v2.0 全轨道收官 → v2.4 迁移 Material for MkDocs → v2.6 英译全覆盖 → v2.6.2 去重精简 → v2.7 Agent Skill。
 - 完整记录见 [CHANGELOG.md](../../CHANGELOG.md)；下一步规划见[内容路线图](roadmap.md)。
 

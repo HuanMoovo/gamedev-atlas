@@ -77,6 +77,10 @@
 - [独立开发者深度谱](docs/meta/people/indie/README.md)（44 组档案）
 - [关于本库](docs/meta/design.md)：仓库总览、内容地图与规范
 
+### 邪修·逆向工程
+
+- [邪修·逆向工程](docs/reverse-engineering/README.md)：拆解、Mod、移植与复刻的学习路线（工具链、开源项目与免责声明）
+
 ### 实战与资源
 
 - [独立开发生存手册](playbooks/indie-survival/README.md)

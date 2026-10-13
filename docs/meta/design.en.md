@@ -35,6 +35,7 @@ Out of scope: news and hot takes, zero-to-one tutorials for a single engine, pai
 | Teams & Scale | How solo devs, small teams and studios work | [Teams & Scale](../teams/README.md) |
 | Publishing & Monetization | Launch, legal, live-ops, mini-games, consoles, VR/AR, esports | [Publishing & Monetization](../publishing/README.md) |
 | Pitfalls & Postmortems | The anti-pattern collection and project postmortems | [Pitfalls](../pitfalls/README.md) · [Postmortems](../postmortems/README.md) |
+| Reverse Engineering (Unorthodox) | Dismantling, mods, ports and remakes (toolchain and disclaimer included) | [Reverse Engineering (Unorthodox)](../reverse-engineering/README.md) |
 | Playbooks | End-to-end processes: idea to demo, vertical slice, launch and more | [Playbooks](../../playbooks/README.md) |
 | Templates | Ready-to-use templates: one-pager, GDD, tech design, milestones | [Templates](../../templates/README.md) |
 | Examples | The example plan covering six engine tracks | [Examples](../../examples/README.md) |
@@ -69,7 +70,7 @@ Current scale: 140+ Chinese documents · ~960k characters · 81 genre handbooks 
 
 ## 05 Versions & Status
 
-- Current version v2.7.0: full English coverage, a bilingual (Simplified Chinese / English) reading site, and an official Agent Skill.
+- Current version v2.8.0: full English coverage, a bilingual reading site, an official Agent Skill, and the new Reverse Engineering (Unorthodox) section.
 - Milestones: v0.1 first 26 handbooks → v2.0 all tracks complete → v2.4 migration to Material for MkDocs → v2.6 full English coverage → v2.6.2 deduplication and trimming → v2.7 Agent Skill.
 - Full log in [CHANGELOG.md](../../CHANGELOG.md); next directions in the [Content Roadmap](roadmap.md).
 

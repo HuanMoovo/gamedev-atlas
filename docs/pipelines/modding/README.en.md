@@ -64,6 +64,8 @@ Bottom-line recommendation: on PC, prefer the Workshop first (the user base and 
 
 - **Nexus Mods** is a major hub of the PC mod community; even if you do not officially support mods, players may publish them there. Rather than fight it, design your formats so that they can.
 - **The reality for Unity projects**: the player community has mature injection-based mod frameworks (BepInEx, MelonLoader and the like) and you cannot stop them. The smart move is to embrace it: give them data formats, interfaces and documentation.
+>
+> For unpacking and analysis within legal bounds, see [Reverse Engineering (Unorthodox)](../../reverse-engineering/README.md).
 - **Your official tools are the mod tools**: clean up the in-house level/stats editing tools and ship them to the community (Steam's official docs recommend this too) — cheaper and more stable than building a separate set.
 - **Example mods are the best documentation**: publish two or three source-level examples (one that changes stats, one that adds content, one that changes gameplay) and the rate at which mod authors get started will multiply.
 

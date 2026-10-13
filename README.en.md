@@ -79,6 +79,10 @@ The library is Chinese-first; the full English edition is now available.
 - [Indie Developer Profiles](docs/meta/people/indie/README.md) (44 profiles)
 - [About This Repo](docs/meta/design.md): overview, content map, and conventions
 
+### Reverse Engineering (Unorthodox)
+
+- [Reverse Engineering (Unorthodox)](docs/reverse-engineering/README.md): learn by dismantling: toolchain, open-source projects, hands-on path, defense, and the section-wide disclaimer
+
 ### Practice & resources
 
 - [Indie Survival](playbooks/indie-survival/README.md)

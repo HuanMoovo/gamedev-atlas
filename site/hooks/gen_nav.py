@@ -123,6 +123,8 @@ def build_nav(base):
             nav.append(_section(base, rel, label))
     if _have('docs/pitfalls/index.md') and _have('docs/postmortems/index.md'):
         nav.append({'避坑与复盘': [_node(base, 'docs/pitfalls'), _node(base, 'docs/postmortems')]})
+    if _have('docs/reverse-engineering/index.md'):
+        nav.append(_section(base, 'docs/reverse-engineering', '邪修·逆向工程'))
     if _have('resources/index.md'):
         nav.append(_section(base, 'resources', '资源大全'))
     if _have('playbooks/index.md'):

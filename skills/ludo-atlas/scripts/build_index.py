@@ -31,6 +31,7 @@ SECTIONS = [
     ('模板 Templates', ['templates'], True),
     ('示例 Examples', ['examples'], True),
     ('资源大全 Resources', ['resources'], True),
+    ('邪修·逆向工程 Reverse Engineering (Unorthodox)', ['docs/reverse-engineering'], True),
     ('关于与元信息 About & Meta', ['docs/meta'], True),
 ]
 URL_PREFIX = {'docs': 'docs', 'playbooks': 'playbooks', 'resources': 'resources',

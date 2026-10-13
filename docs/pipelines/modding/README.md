@@ -112,3 +112,5 @@ Steam 平台有完整的官方方案（Steamworks 创意工坊）：
 - mod.io 官网：https://mod.io/
 
 > 另：BepInEx（Unity 社区 mod 框架）见 github.com/BepInEx/BepInEx；Nexus Mods 见 nexusmods.com。PC mod 生态的通行基础设施，了解即可。
+>
+> 拆包与分析（在合法范围内）的方法见[《邪修·逆向工程》](../../reverse-engineering/README.md)。

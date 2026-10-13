@@ -57,7 +57,7 @@ def _stats():
     if os.path.exists(glossary):
         files.append(glossary)
     texts = [open(f, encoding='utf-8').read() for f in files]
-    n = sum(1 for t in texts if t.count('\n') >= 60)
+    n = sum(1 for t in texts if t.count('\n') + 1 >= 60)  # 「≥60 行」：行数=换行数+1
     w = round(sum(len(t) for t in texts) / 10000, 1)
     genres_dir = os.path.join(OUT, 'docs', 'genres')
     engines_dir = os.path.join(OUT, 'docs', 'engines')

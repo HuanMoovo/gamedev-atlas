@@ -66,7 +66,7 @@ gamedev-atlas/
 └── .github/         # CI: lint / link check / site deploy
 ```
 
-Current scale: 146 Chinese documents · ~970k characters · 81 genre handbooks · 12 engine tracks · 650+ resource links.
+Current scale: 146 Chinese documents · ~983k characters · 81 genre handbooks · 12 engine tracks · 650+ resource links.
 
 ## 05 Versions & Status
 

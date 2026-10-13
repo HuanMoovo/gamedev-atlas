@@ -115,6 +115,8 @@ Errata, new content and engineering improvements are all welcome — see [CONTRI
 
 [![Star History Chart](https://api.star-history.com/svg?repos=huanmoovo%2Fludo-atlas&type=Date)](https://star-history.com/#HuanMoovo/ludo-atlas&Date)
 
+[Buy the author a coffee, or give the project a Star](https://huanmoovo.github.io/ludo-atlas/en/docs/meta/support/)
+
 ## License
 
 Documentation is under [CC BY-SA 4.0](LICENSE); code is under [MIT](LICENSE-CODE).

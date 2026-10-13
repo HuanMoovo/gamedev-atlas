@@ -113,6 +113,8 @@ scripts/        工具脚本（链接核查）
 
 [![Star History Chart](https://api.star-history.com/svg?repos=huanmoovo%2Fludo-atlas&type=Date)](https://star-history.com/#HuanMoovo/ludo-atlas&Date)
 
+[请项目作者喝杯咖啡，或者为项目点个 Star](https://huanmoovo.github.io/ludo-atlas/docs/meta/support/)
+
 ## 许可
 
 文档内容采用 [CC BY-SA 4.0](LICENSE)，代码采用 [MIT](LICENSE-CODE)。

@@ -37,13 +37,13 @@ examples/
 
 ## 示例规划表
 
-下表是示例区的路线图：12 个示例覆盖 Godot、Unity、Web、raylib、Bevy、Ren'Py 六条引擎路线，其中五个标注为首批（对应Phase 2 的示例名额），先在五条不同路线上打通克隆即跑链路，其余按认领顺序推进。目录名为规划占用名，实现前可在对应 Issue 里讨论调整。
+下表是示例区的路线图：12 个示例覆盖 Godot、Unity、Web、raylib、Bevy、Ren'Py 六条引擎路线，其中五个标注为首批（对应 Phase 2 的示例名额），先在五条不同路线上跑通「克隆即跑」，其余按认领顺序推进。目录名为规划占用名，实现前可在对应 Issue 里讨论调整。
 
 | 示例 | 引擎 | 难度 | 状态 | 覆盖知识点 | 对应手册 |
 | --- | --- | --- | --- | --- | --- |
 | 平台手感演示 · `godot-platformer-feel` | Godot 4 | 入门 | 首批 | 移动与跳跃曲线、土狼时间（coyote time）、跳跃缓冲、可变跳跃高度、相机跟随 | [游戏设计手册](../docs/fundamentals/game-design/README.md)（手感）· [平台跳跃](../docs/genres/platformer/README.md) |
 | 2D 控制器 · `unity-2d-controller` | Unity | 入门 | 首批 | 输入系统、刚体与自写移动、跳跃缓冲、单向平台 | [Unity 轨道](../docs/engines/unity/README.md) · [平台跳跃](../docs/genres/platformer/README.md) |
-| Web 发布链路 · `phaser-web-pipeline` | Phaser 3 | 入门 | 首批 | 打包与首包体积、触摸与自适应、静态托管、版本与缓存 | [Web 游戏轨道](../docs/engines/web/README.md) · [小游戏开发手册](../docs/publishing/minigame/README.md) |
+| Web 发布流程 · `phaser-web-pipeline` | Phaser 3 | 入门 | 首批 | 打包与首包体积、触摸与自适应、静态托管、版本与缓存 | [Web 游戏轨道](../docs/engines/web/README.md) · [小游戏开发手册](../docs/publishing/minigame/README.md) |
 | 小游戏骨构 · `raylib-mini-game` | raylib | 入门 | 首批 | 主循环与固定步长、状态切换、碰撞与输入、跨平台构建 | [轻量框架轨道](../docs/engines/micro/README.md) · [构建发布管线](../docs/pipelines/build-release/README.md) |
 | ECS 起步 · `bevy-ecs-starter` | Bevy（Rust） | 进阶 | 首批 | 组件与系统、查询与过滤、固定步长、状态与调度 | [Bevy 轨道](../docs/engines/bevy/README.md) · [引擎源码阅读路线](../docs/fundamentals/engine-internals/README.md) |
 | 塔防骨构 · `godot-tower-defense-skeleton` | Godot 4 | 进阶 | 后续 | 路径与波次、塔表与经济、目标选择、数值 UI 绑定 | [塔防](../docs/genres/tower-defense/README.md) · [技术实现手册](../docs/fundamentals/programming/README.md) |

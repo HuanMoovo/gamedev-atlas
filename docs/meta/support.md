@@ -11,7 +11,7 @@
 
 | 微信支付 | 支付宝 |
 | --- | --- |
-| ![微信支付收款码](../../assets/sponsor/wechat.png) | ![支付宝收款码](../../assets/sponsor/alipay.jpg) |
+| ![微信支付收款码](../../assets/sponsor/wechat.png) | ![支付宝收款码](../../assets/sponsor/alipay.png) |
 
 ## 或者：为项目点个 Star
 

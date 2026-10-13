@@ -11,7 +11,7 @@ Scan with WeChat or Alipay; any amount is fine.
 
 | WeChat Pay | Alipay |
 | --- | --- |
-| ![WeChat Pay QR code](../../assets/sponsor/wechat.png) | ![Alipay QR code](../../assets/sponsor/alipay.jpg) |
+| ![WeChat Pay QR code](../../assets/sponsor/wechat.png) | ![Alipay QR code](../../assets/sponsor/alipay.png) |
 
 ## Or: give the project a Star
 

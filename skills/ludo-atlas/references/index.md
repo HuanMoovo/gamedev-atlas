@@ -237,6 +237,7 @@
 | meta/ — 项目元信息、历史与人物 | `/docs/meta/` |
 | 关于本库 | `/docs/meta/design/` |
 | 内容路线图 | `/docs/meta/roadmap/` |
+| 赞助与支持 | `/docs/meta/support/` |
 | 游戏简史 | `/docs/meta/history/` |
 | 独立开发者与厂商谱 | `/docs/meta/people/` |
 | 独立开发者深度谱 | `/docs/meta/people/indie/` |

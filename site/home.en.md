@@ -95,3 +95,4 @@ The repository ships an official Agent Skill: [skills/ludo-atlas](https://github
 - [Glossary](GLOSSARY.md) · [Contributing](CONTRIBUTING.md) · [Changelog](CHANGELOG.md)
 - Sections on top, the full contents on the left, the page outline on the right; site-wide search and dark mode included.
 - Star history: [star-history.com/#HuanMoovo/ludo-atlas](https://star-history.com/#HuanMoovo/ludo-atlas&Date)
+- Support: [Buy the author a coffee, or give the project a Star](docs/meta/support.md)

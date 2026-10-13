@@ -2,6 +2,11 @@
 
 > 各版本按内容增量推进；仓库结构与规范见 [关于本库](docs/meta/design.md)。
 
+## 2.7.1 · 赞助与支持
+
+- 新增《赞助与支持》页（/docs/meta/support/）：微信 / 支付宝收款码与 Star 引导。
+- README 与站点首页的 Star 趋势下方新增赞助入口；「关于」导航同步收录。
+
 ## 2.7.0 · Agent Skill
 
 - 新增 `skills/ludo-atlas/`：把全库做成标准 Agent Skill（SKILL.md 路由层 + 全量页面索引 + 重生成脚本），Claude Code / Codex / Hermes 等可直接安装调用。

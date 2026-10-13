@@ -110,8 +110,14 @@ def main():
         else:
             shutil.copyfile(s, dst)
 
-    # 3) 资产：logo 与自定义样式
+    # 3) 资产：logo、赞助收款码与自定义样式
     shutil.copyfile(os.path.join(REPO, 'assets', 'logo.svg'), os.path.join(OUT, 'logo.svg'))
+    sponsor_src = os.path.join(REPO, 'assets', 'sponsor')
+    if os.path.isdir(sponsor_src):
+        sponsor_dst = os.path.join(OUT, 'assets', 'sponsor')
+        os.makedirs(sponsor_dst, exist_ok=True)
+        for fn in os.listdir(sponsor_src):
+            shutil.copyfile(os.path.join(sponsor_src, fn), os.path.join(sponsor_dst, fn))
     shutil.copyfile(os.path.join(SITE, 'styles', 'extra.css'), os.path.join(OUT, 'extra.css'))
 
     # 4) 首页（注入统计；支持 site/home.en.md 英文版）

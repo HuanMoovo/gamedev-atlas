@@ -2,7 +2,7 @@
 
 The book is finished. Time to step out of the handbook voice and say a few plain things.
 
-One thing has been impossible to miss these past two years: AI is unmistakably an intelligence revolution. It lowers the barrier of entry in every industry, and game development is no exception. Projects that once needed a full crew of programmers, artists and designers can now get moving with one person and a few AI tools; even people with no experience at all can go straight in and produce decent results. So more and more developers are pouring in, and the output is uneven.
+One thing has been impossible to miss these past two years: AI is unmistakably an intelligence revolution. It lowers the barrier of entry in every industry, and game development is no exception. Projects that once needed a full crew of programmers, artists and designers can now get moving with one person and a few AI tools; even people with no experience at all can go straight in and produce decent results. There is a name for this now: vibe coding — describe what you want, let the AI handle the syntax, and it runs. So more and more developers are pouring in, and the output is uneven.
 
 Is that bad news? For the careless, yes. For those who take the craft seriously, no.
 

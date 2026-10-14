@@ -9,3 +9,4 @@ __pycache__/
 site/build/
 site/dist/
 _site/
+.tmp/

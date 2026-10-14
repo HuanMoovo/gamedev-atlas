@@ -5,14 +5,14 @@
 
 ---
 
-## Covered (v2.8.1)
+## Covered (v2.9.0)
 
 - Getting Started: 5 pages · Fundamentals: 7 handbooks · Genre Handbooks: 81 genres (four volumes) · Engine Tracks: 12 · Pipelines & Workflows: 6 + 2 deep dives · Teams & Scale: 3 documents · AI Workflows: 3 documents · Pitfalls & Postmortems: 2 handbooks · Publishing & Monetization: 6 handbooks.
 - Playbooks: 6 · Templates: 6 · Resources: 691 links · the examples roadmap.
 - Reverse Engineering (Unorthodox): 5 pages (overview / toolchain / projects / hands-on / defense, with a section-wide disclaimer).
 - Afterword (bilingual): confidence and forecasts for developers in the AI era.
 - The official Agent Skill ([skills/ludo-atlas](https://github.com/HuanMoovo/ludo-atlas/tree/main/skills/ludo-atlas)): a routing index of the whole library plus a regeneration script.
-- Reading site (Material for MkDocs book edition): bilingual, Simplified Chinese / English; full English coverage.
+- Reading site (Material for MkDocs book edition): bilingual, Simplified Chinese / English; full English coverage; v2.9 reading-experience upgrade.
 - The CI set (lint, link check, site deploy) runs steadily.
 
 ## Optional Expansion Directions

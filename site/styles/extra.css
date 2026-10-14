@@ -1,12 +1,13 @@
-/* Ludo Atlas 阅读站样式微调（Material for MkDocs） */
+/* Ludo Atlas 阅读站样式（Material for MkDocs）
+   方向：书籍式长文阅读——栏宽、字号、行距、组件细节。 */
 
-/* 中文字体优先，避免依赖 Google Fonts */
+/* ── 字体：系统栈优先，不依赖外链字体 ─────────────────── */
 :root {
-  --md-text-font: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", "PingFang SC", "Noto Sans CJK SC", sans-serif;
-  --md-code-font: "Cascadia Code", "JetBrains Mono", Consolas, Menlo, "Courier New", monospace;
+  --md-text-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "PingFang SC", "HarmonyOS Sans SC", "Source Han Sans SC", "Noto Sans CJK SC", "Microsoft YaHei", sans-serif;
+  --md-code-font: "Cascadia Code", "Cascadia Mono", "JetBrains Mono", Consolas, Menlo, "Courier New", monospace;
 }
 
-/* 品牌色（与 LOGO 绿色系对齐） */
+/* ── 品牌色（与 LOGO 绿色系对齐） ─────────────────────── */
 [data-md-color-primary="green"] {
   --md-primary-fg-color: #2f9e44;
   --md-primary-fg-color--light: #48d64f;
@@ -16,21 +17,92 @@
   --md-accent-fg-color: #28a63c;
 }
 
-/* 正文阅读微调：更松弛的行距与标题间距 */
+/* ── 正文：书籍式排版 ─────────────────────────────────── */
 .md-typeset {
-  line-height: 1.78;
+  font-size: .84rem;        /* ≈16.8px */
+  line-height: 1.82;
+  max-width: 36rem;         /* 阅读栏宽 ≈720px，桌面居中 */
+  margin-left: auto;
+  margin-right: auto;
 }
-.md-typeset p {
-  margin: 1em 0;
-}
-.md-typeset h2 {
-  margin-top: 1.9em;
-}
-.md-typeset h3 {
-  margin-top: 1.4em;
+@media screen and (max-width: 46.5em) {
+  .md-typeset { margin-left: .8rem; margin-right: .8rem; }
 }
 
-/* 首页 Hero 居中 */
+/* 英文页面：更窄的阅读栏（≈620px，控制每行 75 字符内） */
+html[lang="en"] .md-typeset {
+  max-width: 31rem;
+}
+
+.md-typeset p { margin: .95em 0; }
+.md-typeset li + li { margin-top: .35em; }
+
+.md-typeset h2 {
+  margin-top: 2.1em;
+  padding-bottom: .3em;
+  border-bottom: .05rem solid var(--md-default-fg-color--lightest);
+}
+.md-typeset h3 { margin-top: 1.5em; }
+
+/* ── 链接 / 行内代码 / 代码块细节 ─────────────────────── */
+.md-typeset a {
+  text-underline-offset: .2em;
+  text-decoration-thickness: .05rem;
+}
+.md-typeset code { border-radius: .2rem; }
+.md-typeset .highlight,
+.md-typeset pre { border-radius: .3rem; }
+
+/* ── 引用块（页首定位句等） ───────────────────────────── */
+[dir=ltr] .md-typeset blockquote,
+[dir=rtl] .md-typeset blockquote {
+  border-left: .2rem solid var(--md-primary-fg-color);
+  background: var(--md-default-fg-color--lightest);
+  border-radius: 0 .25rem .25rem 0;
+  padding: .55rem 1rem .55rem .9rem;
+  color: var(--md-default-fg-color);
+}
+
+/* ── 表格：斑马纹（横向滚动由主题自带） ───────────────── */
+.md-typeset table:not([class]) tbody tr:nth-child(2n) {
+  background-color: var(--md-default-fg-color--lightest);
+}
+
+/* ── 右侧目录字号微调 ─────────────────────────────────── */
+.md-nav--secondary { font-size: .68rem; }
+
+/* ── 阅读进度条（滚动驱动；不支持滚动时间线的浏览器自动隐藏） ── */
+body::after {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: .12rem;
+  background: rgba(255, 255, 255, .92);
+  transform: scaleX(0);
+  transform-origin: 0 50%;
+  z-index: 6;
+  pointer-events: none;
+}
+@supports (animation-timeline: scroll()) {
+  body::after {
+    animation-name: la-reading-progress;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+    animation-timeline: scroll(root);
+  }
+}
+@keyframes la-reading-progress {
+  from { transform: scaleX(0); }
+  to { transform: scaleX(1); }
+}
+@media print {
+  body::after { display: none; }
+}
+
+/* ── 首页 Hero 居中（保留） ───────────────────────────── */
 .hero {
   text-align: center;
   margin: 1.2rem auto 0.4rem;

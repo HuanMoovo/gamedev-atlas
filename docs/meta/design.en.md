@@ -70,8 +70,8 @@ Current scale: 145 Chinese documents · ~974k characters · 81 genre handbooks �
 
 ## 05 Versions & Status
 
-- Current version v2.8.1: full English coverage, a bilingual reading site, an official Agent Skill, the Reverse Engineering (Unorthodox) section, and the Afterword.
-- Milestones: v0.1 first 26 handbooks → v2.0 all tracks complete → v2.4 migration to Material for MkDocs → v2.6 full English coverage → v2.6.2 deduplication and trimming → v2.7 Agent Skill → v2.8 Reverse Engineering (Unorthodox) → v2.8.1 Afterword.
+- Current version v2.9.0: full English coverage, a bilingual reading site (reading-experience upgrade in v2.9), an official Agent Skill, the Reverse Engineering (Unorthodox) section, and the Afterword.
+- Milestones: v0.1 first 26 handbooks → v2.0 all tracks complete → v2.4 migration to Material for MkDocs → v2.6 full English coverage → v2.6.2 deduplication and trimming → v2.7 Agent Skill → v2.8 Reverse Engineering (Unorthodox) → v2.8.1 Afterword → v2.9.0 reading-experience upgrade.
 - Full log in [CHANGELOG.md](../../CHANGELOG.md); next directions in the [Content Roadmap](roadmap.md).
 
 ## 06 Licensing

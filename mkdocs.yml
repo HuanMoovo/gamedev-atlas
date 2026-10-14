@@ -41,9 +41,6 @@ theme:
         icon: material/weather-sunny
         name: 切换至浅色模式
   features:
-    - navigation.tabs
-    - navigation.tabs.sticky
-    - navigation.sections
     - navigation.indexes
     - navigation.top
     - navigation.footer

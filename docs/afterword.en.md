@@ -29,3 +29,5 @@ The book ends here. The road of game development does not. Tools will turn over,
 The open-source projects named in this book are maintained by real people, for free. If you use them, a Star is the simplest thank-you.
 
 May the game in your head one day be real, and played.
+
+*Started on October 4, 2026. Finished on October 23, 2026.*
